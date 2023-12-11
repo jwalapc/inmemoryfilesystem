@@ -15,7 +15,8 @@ Table of Contents
 
 Project Structure
 
-![Alt text](image-1.png)
+![image](https://github.com/jwalapc/inmemoryfilesystem/assets/59509045/d7b80ddd-8bcd-4e52-9812-1cf5be7de7ef)
+
 Features
 
 The IMFS supports the following file system operations:
