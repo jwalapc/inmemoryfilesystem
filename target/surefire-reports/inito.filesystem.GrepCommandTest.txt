@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: inito.filesystem.GrepCommandTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in inito.filesystem.GrepCommandTest
+execute(inito.filesystem.GrepCommandTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: 
+expected:<[tes]t> but was:<[Usage: echo '<text>' > <file_path>
+File not found: //test_file.tx]t>
+	at inito.filesystem.GrepCommandTest.execute(GrepCommandTest.java:25)
+

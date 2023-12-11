@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: inito.filesystem.CatCommandTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.062 s <<< FAILURE! - in inito.filesystem.CatCommandTest
+execute(inito.filesystem.CatCommandTest)  Time elapsed: 0.01 s  <<< FAILURE!
+org.junit.ComparisonFailure: 
+expected:<[Hello, World! This is a test file.]> but was:<[Usage: echo '<text>' > <file_path>
+File not found: test_file.txt]>
+	at inito.filesystem.CatCommandTest.execute(CatCommandTest.java:24)
+

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: inito.filesystem.MvCommandTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in inito.filesystem.MvCommandTest
+execute(inito.filesystem.MvCommandTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at inito.filesystem.MvCommandTest.execute(MvCommandTest.java:24)
+
