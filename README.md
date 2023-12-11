@@ -20,7 +20,8 @@ The In-Memory File System (IMFS) is implemented as a command-line interface (CLI
 
 ## Project Structure
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![image](https://github.com/jwalapc/inmemoryfilesystem/assets/59509045/98def806-6afd-4525-82d0-1b83ef12ef96)
+
 
 
 ## Features
@@ -123,5 +124,5 @@ Directory Structure: Hierarchical tree-like structure for effective navigation.
 
 ## Result
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![WhatsApp Image 2023-12-12 at 00 46 15_6da689c0](https://github.com/jwalapc/inmemoryfilesystem/assets/59509045/2b02c0d0-443d-48ee-8a25-df257a9f2105)
 
