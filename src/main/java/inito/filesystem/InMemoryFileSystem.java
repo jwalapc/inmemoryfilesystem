@@ -78,7 +78,14 @@ public class InMemoryFileSystem {
     
         return false;
     }
-    
+    public void moveUp() {
+        String currentPath = getCurrentDirectory();
+        int lastSlashIndex = currentPath.lastIndexOf("/");
+        if (lastSlashIndex > 0) {
+            setCurrentDirectory(currentPath.substring(0, lastSlashIndex));
+        }
+    }
+
 
 
     public String getPath(String path) {

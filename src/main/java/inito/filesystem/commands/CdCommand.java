@@ -9,11 +9,18 @@ public class CdCommand {
             return;
         }
 
-        String targetPath = fileSystem.getPath(tokens[1]);
-        if (fileSystem.getDirectories().containsKey(targetPath) && fileSystem.getDirectories().get(targetPath)) {
-            fileSystem.setCurrentDirectory(targetPath);
+        String targetPath = tokens[1];
+
+        if (targetPath.equals("..")) {
+            fileSystem.moveUp();
+        } else if (targetPath.equals(".")) {
         } else {
-            System.out.println("Directory not found: " + tokens[1]);
+            targetPath = fileSystem.getPath(targetPath);
+            if (fileSystem.getDirectories().containsKey(targetPath) && fileSystem.getDirectories().get(targetPath)) {
+                fileSystem.setCurrentDirectory(targetPath);
+            } else {
+                System.out.println("Directory not found: " + tokens[1]);
+            }
         }
     }
 }
