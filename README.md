@@ -43,6 +43,8 @@ The IMFS supports the following file system operations:
 
 ## Setup and Installation
 
+### Java Jdk 20 or 21 is necessary for the setup please ensure it you have this version. 
+
 To deploy this project run
 
 #### Clone the Repository:
